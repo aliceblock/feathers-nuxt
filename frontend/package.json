@@ -1,0 +1,22 @@
+{
+  "name": "chat-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "config": {
+    "nuxt": {
+      "port": "8000"
+    }
+  },
+  "scripts": {
+    "start": "nuxt"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "feathers": "^2.1.2",
+    "feathers-client": "^2.2.0",
+    "feathers-socketio": "^2.0.0",
+    "nuxt": "^0.10.7",
+    "socket.io-client": "^2.0.1"
+  }
+}
